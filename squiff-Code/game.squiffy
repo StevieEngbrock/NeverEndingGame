@@ -1,0 +1,104 @@
+@clear
+
+you see a rock
+should you
+
+[[throw the rock]](throwRock)
+
+[[eat the rock]](eatRock)
+
+
+[[throwRock]]:
+@clear
+you throw the rock and it hits a giant
+
+should you 
+
+[[run away]](runFromGiant)
+
+[[say sorry]]
+
+
+[[runFromGiant]]:
+@clear
+you run from the giant but are lifted
+into the air by a great bird
+
+you are taken back to it's nest
+a large cave in the mountains
+you are adopted into it's family
+
+should you
+
+[[escape]](escapeFromBird)
+
+[[stay]](stayWithBird) and enjoy it
+
+[[stayWithBird]]:
+@clear
+you live with your new bird family
+for many years and your wings learn the air.
+your mind , and eyes grow keen
+and you find enlightenment.
+
+
+
+[[escapeFromBird]]:
+@clear
+you escape from mama bird<br>
+but she brings you back [[home]](stayWithBird)
+
+
+
+[[say sorry]]:
+@clear
+you tell the giant sorry but his eyes glow red
+
+
+should you
+
+[[look at the giant's eyes again]](lookAtGiantAgain)
+
+[[poke his eyes out]](pokeGiantsEyesOut)
+
+[[pokeGiantsEyesOut]]:
+@clear
+you poke out the giants eyes
+you realize that was a mistake
+you have did a horrible deed
+your conscience gets the better of you
+you have a nervous breakdown
+
+[[lookAtGiantAgain]]:
+@clear
+you look at the giant again
+you realize his eyes are red
+because he has been crying
+
+[[eatRock]]:
+@clear
+you eat the rock and feel strange
+
+you see a mysterious pill
+should you
+
+[[take the pill]](takePill)
+
+[[wait]](waitForRockToWearOff)
+
+[[takePill]]:
+@clear
+
+you take the pill instantly feel great
+and grow wings
+
+
+you see a great bird moving to attack you
+
+should you
+
+[[make the first move]](attackBird) and destroy it
+
+
+[[look for reinforcements]](helpWithBird))
+
