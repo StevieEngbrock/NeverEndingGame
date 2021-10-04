@@ -1,5 +1,4 @@
 @clear
-
 you see a rock
 should you
 
@@ -61,30 +60,129 @@ should you
 
 [[poke his eyes out]](pokeGiantsEyesOut)
 
+
+
 [[pokeGiantsEyesOut]]:
 @clear
-you poke out the giants eyes
-you realize that was a mistake
-you have did a horrible deed
-your conscience gets the better of you
-you have a nervous breakdown
+you poke out the giants eyes  
+you realize that was a mistake  
+you have did a horrible deed  
+your conscience gets the better of you  
+you have a nervous breakdown  
+
+
 
 [[lookAtGiantAgain]]:
 @clear
-you look at the giant again
-you realize his eyes are red
-because he has been crying
+you look at the giant again  
+you realize his eyes are red  
+because he has been crying  
+
+the giant asks if you would like to be his friend  
+
+[[yes]](beGiantsFriend) sounds fun
+
+[[no]](dontBeGiantsFriend) giants are creepy
+
+
+[[beGiantsFriend]]:
+@clear
+you are now the giant's friend  
+
+the giant invites you to go with him    
+to his home in the forest of the mountains  
+
+should you  
+
+[[go with the giant]](goWithGiantToMountains)  
+[[say you have other things to do]](dontGoWithGiantToMountains)
+
+[[goWithGiantToMountains]]:
+@clear
+you go back to giant's place in the mountains  
+it is a tall building resembling a spacecraft.  
+it is rounghly 50 feet high and half a mile long.  
+
+
+[[dontGoWithGiantToMountains]]:
+@clear
+you deny giant's request to go with him  
+giant smiles at you, waves goodbye,  
+and goes back to the mountains  
+
+after giant leaves  
+a man with a bird's head suddenly materializes
+
+[[dontBeGiantsFriend]]:
+@clear
+you decide not to be the giants friend
+
 
 [[eatRock]]:
 @clear
-you eat the rock and feel strange
+you eat the rock ,feel strange and  
+and are transported thousands of miles away  
 
 you see a mysterious pill
 should you
 
 [[take the pill]](takePill)
 
-[[wait]](waitForRockToWearOff)
+[[wait]](waitForRockToWearOff) and hope you feel better
+
+
+
+[[waitForRockToWearOff]]:
+@clear
+you wait but slowly feel worse  
+you walk around in a stupor, but eventually you find a tree
+
+should you  
+
+[[take a nap]](napUnderTree)  
+[[keep walking]](dontNapUnderTree) and find someone to help you
+
+[[napUnderTree]]:
+@clear
+you take a nap under the tree  
+in your dreams you hear a strange voice  
+calling you  
+
+should you  
+
+[[answer the voice]]  
+[[ignore the voice]]  
+
+
+[[answer the voice]]:
+@clear
+you are lucid and clear in your dream  
+you call out to the voice that called to you  
+you say "hello are you there"  
+"what is your name and what do you want"
+
+
+[[ignore the voice]]:
+@clear
+you ignore the voice which  
+you very clearly and vividly hear  
+calling to you from within your dream
+
+
+
+[[dontNapUnderTree]]:
+@clear
+you refrain from napping under the tree  
+
+you wander the countryside for 2 days  
+eventually you wander to a dirt road, and  
+upon following that for some time  
+you encounter a man with the head of a  
+blackbird
+
+
+
+
 
 [[takePill]]:
 @clear
@@ -100,5 +198,52 @@ should you
 [[make the first move]](attackBird) and destroy it
 
 
-[[look for reinforcements]](helpWithBird))
+[[look for reinforcements]](helpWithBird)
+
+
+
+[[attackBird]]:
+@clear
+you begin to attack the bird and    
+inflict heavy damage on it    
+you notice it's child below    
+should you continue the attack    
+
+[[no]](quitBirdAttack) it's a mother
+
+[[yes]](attackBirdMore) I'll die if I don't do something
+
+
+
+[[quitBirdAttack]]:
+@clear
+you quit attacking the bird  
+but a mysterious cloud forms  
+the bird is struck dead by lightning,  
+three days later her mate, and children<br>  
+eat posioned berries and die  
+
+the universe has saved you  
+
+
+
+[[helpWithBird]]:
+@clear
+you dodge off the attack long enough  
+to find help, but it wasn't meant to be  
+
+one of your reinforcements joins  
+the mother bird in the attack  
+you are nearly killed and now must  
+survive in the wild  
+
+
+
+[[attackBirdMore]]:
+@clear
+you continue your attack  
+but the mother bird is joined  
+by her mate , and you are nearly  
+killed  
+
 
